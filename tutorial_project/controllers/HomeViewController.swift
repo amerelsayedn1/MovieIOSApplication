@@ -89,7 +89,7 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
                 switch result{
                 case .success(let movies):
                     cell.configure(with:movies)
-                    print(movies)
+                    //print(movies)
                 case .failure(let error):
                     print(error.localizedDescription)
                 }
@@ -99,7 +99,7 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
                 switch result{
                 case .success(let movies):
                     cell.configure(with:movies)
-                    print(movies)
+                    //print(movies)
                 case .failure(let error):
                     print(error.localizedDescription)
                 }
@@ -109,7 +109,7 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
                 switch result {
                 case .success(let movies):
                     cell.configure(with:movies)
-                    print(movies)
+                    //print(movies)
                     
                 case .failure(let error):
                     print(error.localizedDescription)
@@ -123,7 +123,20 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
                 switch result{
                 case .success(let movies) :
                     cell.configure(with:movies)
-                    print(movies)
+                    //print(movies)
+                case .failure(let error):
+                    print(error.localizedDescription)
+                }
+                
+            }
+            
+        case Sections.Upcoming.rawValue:
+            APICaller.shared.getTrendingUpComingMovies{result in
+                
+                switch result{
+                case .success(let movies) :
+                    cell.configure(with:movies)
+                   // print(movies)
                 case .failure(let error):
                     print(error.localizedDescription)
                 }

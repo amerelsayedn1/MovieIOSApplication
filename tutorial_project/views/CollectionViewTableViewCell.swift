@@ -43,6 +43,7 @@ class CollectionViewTableViewCell: UITableViewCell {
 
     public func configure(with movies:[Movie]){
         self.movies=movies
+       
         DispatchQueue.self.main.async {
             self.collectionView.reloadData()
         }
@@ -57,11 +58,8 @@ extension CollectionViewTableViewCell: UICollectionViewDelegate,UICollectionView
                    return UICollectionViewCell()
                }
         
-        cell.backgroundColor = .systemPink
-        
-        guard let model = movies[indexPath.row].poster_path else {
-                   return UICollectionViewCell()
-               }
+       
+        let model = movies[indexPath.row].poster_path!
         cell.configue(withe: model)
         return cell
     }

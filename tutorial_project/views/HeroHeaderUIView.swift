@@ -12,7 +12,7 @@ class HeroHeaderUIView: UIView {
 
     private let heroImageView : UIImageView = {
         let imageView = UIImageView()
-        let imageURL = URL(string: "https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg")!
+        let imageURL = URL(string: "https://image.tmdb.org/t/p/w500/wbCt8M0wDQxhhCa85yLgBvd5wMw.jpg")!
         imageView.sd_setImage(with: imageURL)
         
         

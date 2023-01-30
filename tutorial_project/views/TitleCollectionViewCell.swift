@@ -11,11 +11,10 @@ import SDWebImage
 class TitleCollectionViewCell: UICollectionViewCell {
     
     static let identifier = "TitleCollectionViewCell"
+    
     private let posterImageView: UIImageView = {
         let imageView = UIImageView()
-        
-        imageView.contentMode = .scaleAspectFit
-        imageView.image = nil
+        imageView.contentMode = .scaleAspectFill
         return imageView
         
     }()
@@ -34,10 +33,15 @@ class TitleCollectionViewCell: UICollectionViewCell {
     }
     
     public func configue(withe model:String){
-        guard let url = URL(string: "https://image.tmdb.org/t/p/w500/\(model)") else {
+        guard let url = URL(string: "https://image.tmdb.org/t/p/w500\(model)") else {
                     return
                 }
-        posterImageView.sd_setImage(with: url, placeholderImage: UIImage(named: "heroImage"), completed: nil)
+        
+        posterImageView.sd_setImage(with: url, placeholderImage: nil, options: [.highPriority,.retryFailed, .refreshCached]) { (image, error, cashtype, url) in
+            if image != nil{
+                print(url ?? "No Error")
+            }
+        }
     }
     
 }
