@@ -25,6 +25,10 @@
 		5FDB532E2986B7A700D321C3 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDB532D2986B7A700D321C3 /* TitleCollectionViewCell.swift */; };
 		5FDB53312986B8FD00D321C3 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5FDB53302986B8FD00D321C3 /* SDWebImage */; };
 		5FDB53332986B8FD00D321C3 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5FDB53322986B8FD00D321C3 /* SDWebImageMapKit */; };
+		8B5B83722BE4190C00997E09 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B83712BE4190C00997E09 /* HomeViewController.xib */; };
+		8B5B83742BE41BD300997E09 /* CollectionViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B83732BE41BD300997E09 /* CollectionViewTableViewCell.xib */; };
+		8B5B83772BE4202A00997E09 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B83752BE4202A00997E09 /* HomeTableViewCell.swift */; };
+		8B5B83782BE4202A00997E09 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B83762BE4202A00997E09 /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,10 @@
 		5FDB53262986B08E00D321C3 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		5FDB53292986B38A00D321C3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5FDB532D2986B7A700D321C3 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B5B83712BE4190C00997E09 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8B5B83732BE41BD300997E09 /* CollectionViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewTableViewCell.xib; sourceTree = "<group>"; };
+		8B5B83752BE4202A00997E09 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		8B5B83762BE4202A00997E09 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				5F747CF829840B310087C0D4 /* HomeViewController.swift */,
+				8B5B83712BE4190C00997E09 /* HomeViewController.xib */,
 				5F747CFA29840BAB0087C0D4 /* UpComingViewController.swift */,
 				5F747CFC29840BEF0087C0D4 /* SearchViewController.swift */,
 				5F747CFE29840C1E0087C0D4 /* DownloadViewController.swift */,
@@ -119,9 +128,12 @@
 			isa = PBXGroup;
 			children = (
 				5F747D03298419100087C0D4 /* CollectionViewTableViewCell.swift */,
+				8B5B83732BE41BD300997E09 /* CollectionViewTableViewCell.xib */,
 				5F747D05298422100087C0D4 /* HeroHeaderUIView.swift */,
 				5FDB532D2986B7A700D321C3 /* TitleCollectionViewCell.swift */,
 				5F99C6162987C1C100A992F4 /* UpComingTableViewCell.swift */,
+				8B5B83752BE4202A00997E09 /* HomeTableViewCell.swift */,
+				8B5B83762BE4202A00997E09 /* HomeTableViewCell.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -216,6 +228,9 @@
 			files = (
 				5F747CF0298407700087C0D4 /* LaunchScreen.storyboard in Resources */,
 				5F747CED298407700087C0D4 /* Assets.xcassets in Resources */,
+				8B5B83742BE41BD300997E09 /* CollectionViewTableViewCell.xib in Resources */,
+				8B5B83782BE4202A00997E09 /* HomeTableViewCell.xib in Resources */,
+				8B5B83722BE4190C00997E09 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +247,7 @@
 				5F747CE82984076F0087C0D4 /* MainTabBarViewController.swift in Sources */,
 				5F747D04298419100087C0D4 /* CollectionViewTableViewCell.swift in Sources */,
 				5FDB53242986AC9500D321C3 /* APICaller.swift in Sources */,
+				8B5B83772BE4202A00997E09 /* HomeTableViewCell.swift in Sources */,
 				5F747D06298422100087C0D4 /* HeroHeaderUIView.swift in Sources */,
 				5F747CE42984076F0087C0D4 /* AppDelegate.swift in Sources */,
 				5F747CFF29840C1E0087C0D4 /* DownloadViewController.swift in Sources */,

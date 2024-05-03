@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "407032B5-34F1-42C4-AD84-D0C3179664E4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B088D7CB-BEC6-4F48-9282-4DE71B2C3798"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tutorial_project/views/CollectionViewTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B088D7CB-BEC6-4F48-9282-4DE71B2C3798 - 82a397f87698f2b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tutorial_project.CollectionViewTableViewCell.configure(with: Swift.Array&lt;tutorial_project.Movie&gt;) -&gt; ()"
+                  moduleName = "tutorial_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaledkamal/Downloads/Popular-Movies-Sample-iOs-main/tutorial_project/views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "B088D7CB-BEC6-4F48-9282-4DE71B2C3798 - 800cc340769b8135"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in tutorial_project.CollectionViewTableViewCell.configure(with: Swift.Array&lt;tutorial_project.Movie&gt;) -&gt; ()"
+                  moduleName = "tutorial_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaledkamal/Downloads/Popular-Movies-Sample-iOs-main/tutorial_project/views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "B088D7CB-BEC6-4F48-9282-4DE71B2C3798 - 82a397f87698f293"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tutorial_project.CollectionViewTableViewCell.configure(with: Swift.Array&lt;tutorial_project.Movie&gt;) -&gt; ()"
+                  moduleName = "tutorial_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaledkamal/Downloads/Popular-Movies-Sample-iOs-main/tutorial_project/views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "B088D7CB-BEC6-4F48-9282-4DE71B2C3798 - 800cc340769b8152"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in tutorial_project.CollectionViewTableViewCell.configure(with: Swift.Array&lt;tutorial_project.Movie&gt;) -&gt; ()"
+                  moduleName = "tutorial_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaledkamal/Downloads/Popular-Movies-Sample-iOs-main/tutorial_project/views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A02BE4C6-1353-4809-B91F-0472310454FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tutorial_project/views/CollectionViewTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A02BE4C6-1353-4809-B91F-0472310454FE - 6e06772a5b2ae4b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tutorial_project.CollectionViewTableViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "tutorial_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaledkamal/Downloads/Popular-Movies-Sample-iOs-main/tutorial_project/views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "A02BE4C6-1353-4809-B91F-0472310454FE - 6e06772a5b2ae497"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tutorial_project.CollectionViewTableViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "tutorial_project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaledkamal/Downloads/Popular-Movies-Sample-iOs-main/tutorial_project/views/CollectionViewTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
